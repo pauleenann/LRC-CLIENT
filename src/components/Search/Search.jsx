@@ -80,7 +80,7 @@ const Search = () => {
   
     try {
       console.log('getting resources');
-      const response = await axios.get('http://localhost:3001/resources', {
+      const response = await axios.get('https://api.tuplrc-cla.com/resources', {
         params: {
           offset: 0,
           keyword,
